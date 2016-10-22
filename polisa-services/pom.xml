@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>pl.ug.edu.polisa</groupId>
+		<artifactId>polisa</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<groupId>pl.ug.edu.polisa.services</groupId>
+	<artifactId>polisa-services</artifactId>
+	<version>0.0.1-SNAPSHOT-SRV</version>
+	<name>polisa-services</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>12.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>2.9.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.joda</groupId>
+			<artifactId>joda-money</artifactId>
+			<version>0.11</version>
+		</dependency>
+
+		<dependency>
+			<groupId>pl.ug.edu.polisa.domain</groupId>
+			<artifactId>polisa-domain</artifactId>
+			<version>0.0.1-SNAPSHOT-DOMAIN</version>
+		</dependency>
+
+		<dependency>
+			<groupId>pl.ug.edu.polisa.dao</groupId>
+			<artifactId>polisa-dao</artifactId>
+			<version>0.0.1-SNAPSHOT-DAO</version>
+		</dependency>
+
+
+	</dependencies>
+</project>
